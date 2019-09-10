@@ -1,0 +1,263 @@
+.App{
+    width: 100%;
+    height: 100%;
+}
+
+.Header{
+    width: 100%;
+    height: 7%;
+    /* border-bottom:1px solid #000; */
+}
+.Header div{
+    width: 95%;
+    margin: 0 2.5%;
+}
+.Header div span{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    color:#666666;
+}
+.Header div input{
+    width: 60%;
+    height: 22px;
+    background:lightgrey;
+    outline: none;
+    border:none;
+    border:1px solid #000;
+    border-radius: 5%;
+    
+}
+.Home{
+    width: 100%;
+   
+    height:93%;
+}
+.Header span:nth-child(1){
+    position: absolute;
+    left:-38px;
+    top:0px;
+    height: 20px;
+}
+.Home-box{
+    width: 100%;
+    height: 50px;
+    border-bottom:1px solid #666666;
+}
+.Home-box ul{
+    width: 100%;
+    height: 100%;
+}
+.Home-box ul a {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 8px;
+    /* background: red; */
+}
+.active{
+    
+    color:lightskyblue;
+    border-bottom:2px solid lightskyblue;
+}
+.List{
+    width: 100%;
+    height: 100%;
+}
+.Re{
+    width: 100%;
+    height: 100%;
+}
+.Re-Login{
+    width: 100%;
+    height: 60px;
+    /* background: red; */
+    display: flex;
+    margin-top:10px;
+    color:#666666;
+}
+.Re-Login .Re-box{
+        flex:1;
+        text-align: center;
+        line-height: 30px;
+}
+.Re-box div{
+    width: 30px;
+    height: 30px;
+    /* background: lawngreen; */
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.Divx{
+    width: 95%;
+    height: 150px;
+    margin: 0 2.5%;
+    /* background: red; */
+}
+.Divx .Divx-box{
+    display: inline-block;
+    width: 30%;
+    height: 40%;
+    margin: 2% 1.5%;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 5%;
+}
+.Re-Ps{
+    width: 95%;
+    height: 50px;
+    margin: 0 2.5%;
+    /* background: red; */
+}
+.Re-Ps h3{
+    float: left;
+    line-height: 50px;
+
+}
+.Re-Ps span{
+    float: right;
+    line-height: 50px;
+    color:lightskyblue;
+}
+.Re-list{
+    width: 95%;
+    margin: 5px 2.5%;
+    height: 100px;
+    /* background: red; */
+}
+.Re-list img{
+    width: 80px;
+    margin: 10px;
+    float: left;
+}
+.Re-list ul{
+    width: 70%;
+    height: 97%;
+    padding-top:3%;
+}
+.Re-list ul li{
+    margin:12px 0;
+    font-size: 12px;
+
+}
+.Re-list ul li:nth-child(1){
+    margin: 0;
+    font-size: 16px;
+}
+
+
+/* ------ */
+.Detile{
+    width: 100%;
+    /* margin: 5px 2.5%; */
+    height: 100%;
+    /* background: red; */
+}
+.Detile div{
+    width: 95%;
+    margin: 5px 2.5%;
+    height: 100px;
+}
+.Detile img{
+    width: 80px;
+    margin: 10px;
+    float: left;
+}
+.DetileUl{
+    width: 70%;
+    height: 97%;
+    padding-top:3%;
+    position: relative;
+
+}
+.Detileul li{
+    margin:12px 0;
+    font-size: 12px;
+
+}
+.Detile ul li:nth-child(1){
+    margin: 0;
+    font-size: 16px;
+}
+.Tian{
+    position: absolute;
+    right:-100px;
+    top:40%;
+    background: red;
+    padding: 10px;
+    color:#fff;
+    border-radius: 5%;
+}
+
+
+
+/* -----------------我的---------------- */
+.My{
+    width: 100%;
+    /* height: 100px; */
+    /* background: red; */
+}
+.My-box{
+    width: 95%;
+    margin: 0 2.5%;
+    border-bottom:1px solid #666666;
+}
+
+.My-box .My-Box-sC{
+    width: 100%;
+    padding: 10px 0px 15px 6px;
+}
+.My-box h3{
+    float: left;
+    width: 90%;
+}
+.My-box p span{
+    /* float: right; */
+}
+.My-box img{
+    width: 80px;
+    margin: 10px;
+    float: left;
+}
+.My-box .MY-BOx{
+    width: 100%;
+    margin: 5px 0;
+    height: 100px;
+}
+.My-box .MyUl{
+    width: 70%;
+    height: 97%;
+    padding-top:3%;
+    position: relative;
+}
+
+.MyUl li{
+    margin:12px 0;
+    font-size: 12px;
+
+}
+.MyUl  li:nth-child(1){
+    margin: 0;
+    font-size: 16px;
+}
+
+.My-guan{
+    width: 95%;
+    margin: 0 2.5%;
+    height: 40px;
+    /* padding: 10px 0px 15px 6px; */
+    overflow: hidden;
+    border-bottom:1px solid #666666;
+}
+.My-guan .My-Box-sC{
+    padding: 10px 0px 15px 6px;
+
+}
+.My-guan h3{
+    float: left;
+    width: 91.5%;
+}
